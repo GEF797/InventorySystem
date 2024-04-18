@@ -73,31 +73,31 @@ private:
 
 
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Attack, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Attack, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData Attack;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Defense, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Defense, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData Defense;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicAttack, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicAttack, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData MagicAttack;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicDefense, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicDefense, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData MagicDefense;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Speed, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Speed, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData Speed;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Critical, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Critical, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData Critical;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_CriticalRate, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_CriticalRate, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData CriticalRate;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Penetrated, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Penetrated, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData Penetrated;
 
-	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicPenetrated, Category = "Lyra|RPG", Meta = (AllowPrivateAccess = true))
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MagicPenetrated, Category = "Attribute", Meta = (AllowPrivateAccess = true))
 		FGameplayAttributeData MagicPenetrated;
 
 };
