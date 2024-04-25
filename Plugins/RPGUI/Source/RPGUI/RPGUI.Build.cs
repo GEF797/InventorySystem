@@ -36,8 +36,8 @@ public class RPGUI : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
-				"Slate",
-				"SlateCore",
+                 "Slate",
+                "SlateCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
