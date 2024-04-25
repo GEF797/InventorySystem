@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Components/MenuAnchor.h"
+
 #include "RPGMenuAnchor.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class RPGINVENTORYSYSTEM_API URPGMenuAnchor : public UMenuAnchor
+class RPGUI_API URPGMenuAnchor : public UMenuAnchor
 {
 	GENERATED_BODY()
 
