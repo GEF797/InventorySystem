@@ -31,6 +31,13 @@ void AGASCharacter::PostInitializeComponents()
 	AbilitySystemComponent->InitAbilityActorInfo(this, this);
 }
 
+void AGASCharacter::InitASC( AActor* Player, AActor* Pawn)
+{
+	check(AbilitySystemComponent);
+
+	AbilitySystemComponent->InitAbilityActorInfo(Player, Pawn);
+}
+
 UAbilitySystemComponent* AGASCharacter::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComponent;

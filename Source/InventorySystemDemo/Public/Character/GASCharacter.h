@@ -25,6 +25,10 @@ public:
 
 	virtual void PostInitializeComponents() override;
 
+	UFUNCTION(BlueprintCallable)
+
+	 void InitASC( AActor* Player, AActor* Pawn);
+
 private:
 	UPROPERTY(VisibleAnywhere, Category = "UIForGAS")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
